@@ -14,7 +14,7 @@ function App() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/animals"
+        "https://animal-traceability-api-gcdvadfrgae8degp.chilecentral-01.azurewebsites.net/api/animals"
       );
 
       setAnimals(response.data);
